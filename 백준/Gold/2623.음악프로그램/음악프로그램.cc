@@ -15,10 +15,7 @@ int main()
 	for (int i = 0; i < M; i++)
 	{
 		int k, st, en;
-		cin >> k;
-		if (k == 0) continue;
-		cin >> st;
-		if (k == 1) continue;
+		cin >> k >> st;
 		for (int j = 0; j < k - 1; j++)
 		{
 			cin >> en;
